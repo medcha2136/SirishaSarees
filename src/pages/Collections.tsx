@@ -4,7 +4,7 @@ import { Filter } from 'lucide-react';
 import sareeCollection from '@/assets/saree-collection.jpg';
 import dressMaterials from '@/assets/dress-materials.jpg';
 import topsCollection from '@/assets/tops-collection.jpg';
-import sirisha from '@/assets/random.png';
+import sirisha from '@/assets/random.jpg';
 const Collections = () => {
   const [activeFilter, setActiveFilter] = useState('all');
 
