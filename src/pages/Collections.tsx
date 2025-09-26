@@ -4,15 +4,16 @@ import { Filter } from 'lucide-react';
 import sareeCollection from '@/assets/saree-collection.jpg';
 import dressMaterials from '@/assets/dress-materials.jpg';
 import topsCollection from '@/assets/tops-collection.jpg';
-
+import sirisha from '@/assets/random.png';
 const Collections = () => {
   const [activeFilter, setActiveFilter] = useState('all');
 
   const collections = [
+    
     {
-      title: "Royal Silk Saree",
+      title: "silk saree",
       description: "Luxurious silk saree with gold zari work and traditional motifs",
-      image: sareeCollection,
+      image: sirisha,
       price: "₹2,500",
       category: "sarees"
     },
